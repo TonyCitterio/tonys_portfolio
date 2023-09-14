@@ -1,8 +1,11 @@
+import React from "react";
+import MainPage from "./components/MainPage.jsx";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hej Detta ska bli Tonys Portfolio</h1>
-    </div>
+    <>
+      <MainPage></MainPage>
+    </>
   );
 }
 
