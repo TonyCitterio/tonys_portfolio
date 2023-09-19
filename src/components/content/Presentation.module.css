@@ -1,12 +1,12 @@
 .container {
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
 }
 
 .content {
-  width: clamp(33ch, 60%, 110ch);
+  width: clamp(33ch, 75%, 100ch);
   /* border: 1px solid limegreen; */
 }
 
@@ -16,7 +16,6 @@
 }
 
 .intro > *:nth-child(1) {
-  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,13 +33,17 @@
   align-items: center;
 }
 
+.intro h1 {
+  font-size: 1.75rem;
+}
+
 .skills {
   /* border: 1px solid plum; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 4.5rem;
+  margin-top: 3rem;
 }
 
 .tech {
@@ -49,23 +52,24 @@
 }
 
 .htmlIcon {
-  margin-right: 1.25rem;
+  margin-right: 1.2rem;
   color: #e34c26;
 }
 
 .cssIcon {
-  margin-right: 1.25rem;
+  margin-right: 1.2rem;
   color: #2965f1;
 }
 
 /* To style the "js" letters in the JavaScript icon whit the color #323330 */
 .javascriptIconContainer {
   position: relative;
-  margin-right: 1.25rem;
+  margin-right: 1.2rem;
   width: 65px;
   height: 65px;
   display: flex;
   align-items: center;
+  z-index: -1;
 }
 
 .javascriptIconContainer::before {
@@ -76,7 +80,7 @@
   width: 35px;
   height: 35px;
   background-color: #323330;
-  z-index: -1;
+  z-index: -2;
 }
 /* -------------------------------------------------------- */
 
@@ -85,7 +89,7 @@
 }
 
 .reactIcon {
-  margin-right: 1.25rem;
+  margin-right: 1.2rem;
   color: #61dbfb;
 }
 
