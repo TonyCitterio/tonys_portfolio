@@ -1,0 +1,101 @@
+.container {
+  padding-block: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+}
+
+.content {
+  width: clamp(33ch, 75%, 110ch);
+}
+
+.intro {
+  margin-bottom: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card > *:nth-child(1) {
+  flex: 1 1 58%;
+  min-width: 30ch;
+  height: 280px;
+}
+
+.card > *:nth-child(2) {
+  padding-inline: 1rem;
+  flex: 1 1 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card img {
+  margin-right: 1rem;
+  width: 96%;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.info {
+  line-height: 1.3em;
+}
+
+.info h3 {
+  margin-top: 0.25rem;
+}
+
+.info p {
+  margin-bottom: 0.75rem;
+}
+
+.doneInContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.doneIn {
+  width: 150px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b5c6e0;
+  border-radius: 0.25rem;
+}
+
+.doneInContainer > *:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkContainer > *:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 0.35rem;
+}

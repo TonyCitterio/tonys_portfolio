@@ -29,8 +29,8 @@ const Presentation = () => {
             <div className={classes.javascriptIconContainer}>
               <RiJavascriptFill size={61} className={classes.javascriptIcon} />
             </div>
-            <FaReact size={50} className={classes.reactIcon}/>
-          <SiTailwindcss size={40} className={classes.tailwindIcon}/>
+            <FaReact size={50} className={classes.reactIcon} />
+            <SiTailwindcss size={40} className={classes.tailwindIcon} />
           </div>
         </div>
       </section>
