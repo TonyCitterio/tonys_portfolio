@@ -1,27 +1,28 @@
 .container {
-  margin-top: 5rem;
+  padding-block : 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #333333;
 }
 
 .content {
-  width: clamp(33ch, 75%, 100ch);
+  width: clamp(33ch, 75%, 110ch);
   /* border: 1px solid limegreen; */
 }
 
 .intro {
   display: flex;
   flex-wrap: wrap;
+  /* line-height: 1.5em; */
 }
 
 .intro > *:nth-child(1) {
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1 1 50%;
   min-width: 25ch;
-  line-height: 1.75em;
   /* border: 1px solid limegreen; */
 }
 
@@ -34,7 +35,7 @@
 }
 
 .intro h1 {
-  font-size: 1.75rem;
+  font-size: 1.7rem;
 }
 
 .skills {

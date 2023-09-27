@@ -3,6 +3,7 @@ import Navbar from "./general/Navbar";
 import classes from "./MainPage.module.css";
 import Presentation from "./content/Presentation";
 import AboutMe from "./content/AboutMe";
+import Projects from "./content/Projects";
 
 const MainPage = () => {
   return (
@@ -11,6 +12,7 @@ const MainPage = () => {
       <main className={classes.main}>
         <Presentation />
         <AboutMe />
+        <Projects />
       </main>
     </>
   );
