@@ -10,9 +10,15 @@ const MainPage = () => {
     <>
       <Navbar />
       <main className={classes.main}>
+        <section id="home">
         <Presentation />
+        </section>
+        <section id="about">
         <AboutMe />
+        </section>
+        <section id="projects">
         <Projects />
+        </section>
       </main>
     </>
   );
