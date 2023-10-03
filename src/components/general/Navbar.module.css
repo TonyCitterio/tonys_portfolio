@@ -1,4 +1,4 @@
-.Navbar {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -6,14 +6,30 @@
   height: 100px;
   display: flex;
   align-items: center;
+  justify-content:space-between;
   color: white;
   /* background-color: #6b9080; */
   background-color: #006d77;
-
   z-index: 10;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-.Navbar h1 {
+.navbar h1 {
   margin-left: 1.5rem;
 }
+
+.navbar ul {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.navbar ul li {
+  margin-left: 1.7rem;
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
