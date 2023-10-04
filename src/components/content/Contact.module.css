@@ -1,0 +1,65 @@
+.container {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+}
+
+.content {
+  width: clamp(33ch, 75%, 110ch);
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+}
+
+.card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.intro {
+  margin-top: 1.7rem;
+  margin-bottom: 0.2rem;
+}
+
+.info {
+  margin-bottom: 1.7rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.info > *:nth-child(1) {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  min-width: 20ch;
+}
+
+.info > *:nth-child(2) {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 0.75rem;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.info a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.info a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
