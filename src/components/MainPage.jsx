@@ -4,6 +4,7 @@ import classes from "./MainPage.module.css";
 import Presentation from "./content/Presentation";
 import AboutMe from "./content/AboutMe";
 import Projects from "./content/Projects";
+import Contact from "./content/Contact";
 
 const MainPage = () => {
   return (
@@ -11,13 +12,16 @@ const MainPage = () => {
       <Navbar />
       <main className={classes.main}>
         <section id="home">
-        <Presentation />
+          <Presentation />
         </section>
         <section id="about">
-        <AboutMe />
+          <AboutMe />
         </section>
         <section id="projects">
-        <Projects />
+          <Projects />
+        </section>
+        <section id="contact">
+          <Contact />
         </section>
       </main>
     </>

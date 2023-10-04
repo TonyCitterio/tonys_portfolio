@@ -96,6 +96,15 @@
   align-items: center;
 }
 
+.link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
 .icon {
   margin-left: 0.35rem;
+}
+
+.link:hover .icon {
+  color: #333333;
 }

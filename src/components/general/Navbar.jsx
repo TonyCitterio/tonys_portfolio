@@ -26,6 +26,7 @@ const Navbar = () => {
           <li><a href="#home" data-scroll-to="home" onClick={scrollToSection}>Hem</a></li>
           <li><a href="#about" data-scroll-to="about" onClick={scrollToSection}>Om mig</a></li>
           <li><a href="#projects" data-scroll-to="projects" onClick={scrollToSection}>Mina Projekt</a></li>
+          <li><a href="#contact" data-scroll-to="contact" onClick={scrollToSection}>Kontakt</a></li>
         </ul>
       </nav>
     </>
