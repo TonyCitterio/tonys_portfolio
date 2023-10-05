@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content:space-between;
-  color: white;
   /* background-color: #6b9080; */
   background-color: #006d77;
   z-index: 10;
@@ -16,6 +15,7 @@
 
 .navbar h1 {
   margin-left: 1.5rem;
+  color: white;
 }
 
 .navbar ul {
@@ -23,9 +23,33 @@
   margin-right: 1.5rem;
 }
 
-.navbar ul li {
-  margin-left: 1.7rem;
+/* The Padding is used to make a gap between the il. And it is used instead of gap on the ul so that the underline gets the "right" length */
+.navbar li {
+  position: relative;
+  padding-inline: 1rem;
   list-style-type: none;
+  color: rgba(255, 255, 255, 0.81);
+  transition: 300ms;
+}
+
+.navbar li:hover {
+  color: white;
+} 
+
+.navbar li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.25rem;
+  height: 2px;
+  width: 100%;
+  background-color: #e76f51;
+  scale: 0 1;
+  transition: scale 300ms;
+}
+
+.navbar li:hover::after {
+  scale: 1 1;
 }
 
 .navbar a {
