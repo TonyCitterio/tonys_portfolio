@@ -5,6 +5,7 @@ import Presentation from "./content/Presentation";
 import AboutMe from "./content/AboutMe";
 import Projects from "./content/Projects";
 import Contact from "./content/Contact";
+import Footer from "./general/Footer";
 
 const MainPage = () => {
   return (
@@ -24,6 +25,7 @@ const MainPage = () => {
           <Contact />
         </section>
       </main>
+      <Footer />
     </>
   );
 };
