@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGithub, FaLink } from "react-icons/fa6";
 import classes from "./Projects.module.css";
-import cleves from "../../pictures/cleveDubbelBlue.jpeg";
+// import cleves from "../../pictures/cleveDubbelBlue.jpeg";
+import cleveIpad from "../../pictures/cleve.jpeg"
 
 const Projects = () => {
   return (
@@ -14,7 +15,7 @@ const Projects = () => {
           </div>
           <div className={classes.card}>
             <div>
-              <img src={cleves} alt="Mockup of Cleves Brewhouses Website" />
+              <img src={cleveIpad} alt="Mockup of Cleves Brewhouses Website" />
             </div>
             <div>
               <div className={classes.info}>
