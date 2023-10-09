@@ -7,29 +7,29 @@
 }
 
 .content {
-  width: clamp(33ch, 75%, 110ch);
+  width: clamp(38ch, 85%, 110ch);
   justify-content: center;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
 }
 
 .card {
-  width: 70%;
+  padding-inline: 2rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .intro {
-  margin-top: 1.7rem;
-  margin-bottom: 0.2rem;
+  margin-top: 1rem;
 }
 
 .info {
   margin-bottom: 1.7rem;
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -37,7 +37,6 @@
   flex: 1 1 50%;
   display: flex;
   align-items: center;
-  min-width: 20ch;
 }
 
 .info > *:nth-child(2) {
