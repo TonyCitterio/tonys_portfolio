@@ -27,7 +27,7 @@ const AboutMe = () => {
               där vi som grupp arbetade tillsammans för att uppnå butikens alla
               mål. Här har jag även fått stor erfarenhet av att möta och
               komunisera med människor från olika kulturer och olika åldrar
-              vilket har gjort så att jag har lätt för att passa in i olika
+              vilket har resulterat i att jag har lätt för att passa in i olika
               gruppkonstulationer.
             </p>
           </div>
