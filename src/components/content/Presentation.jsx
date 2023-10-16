@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
 import classes from "./Presentation.module.css";
-import picture from "../../pictures/jag1.png";
+import picture from "../../pictures/me.png";
 
 const Presentation = () => {
   return (
@@ -19,18 +19,26 @@ const Presentation = () => {
               </p>
             </div>
             <div>
-              <img src={picture} alt="of Tony Citterio" className={classes.img} />
+              <img
+                src={picture}
+                alt="of Tony Citterio"
+                className={classes.img}
+              />
             </div>
           </div>
           <div className={classes.skills}>
-            <p className={classes.tech}>Tech Stack :</p>
-            <FaHtml5 size={50} className={classes.htmlIcon} />
+            <div className={classes.tech}>
+              <p>Min verktyglsåda</p>
+            </div>
+            <div className={classes.icons}>
+               <FaHtml5 size={50} className={classes.htmlIcon} />
             <FaCss3Alt size={50} className={classes.cssIcon} />
             <div className={classes.javascriptIconContainer}>
-              <RiJavascriptFill size={61} className={classes.javascriptIcon} />
+            <RiJavascriptFill size={61} className={classes.javascriptIcon} />
             </div>
             <FaReact size={50} className={classes.reactIcon} />
-            <SiTailwindcss size={40} className={classes.tailwindIcon} />
+          <SiTailwindcss size={40} className={classes.tailwindIcon} />
+            </div>
           </div>
         </div>
       </section>

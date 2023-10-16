@@ -6,11 +6,11 @@
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   /* background-color: #6b9080; */
   background-color: #006d77;
   z-index: 10;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navbar h1 {
@@ -18,13 +18,13 @@
   color: white;
 }
 
-.navbar ul {
+.ulBig {
   display: flex;
   margin-right: 1.5rem;
 }
 
 /* The Padding is used to make a gap between the il. And it is used instead of gap on the ul so that the underline gets the "right" length */
-.navbar li {
+.ulBig li {
   position: relative;
   padding-inline: 1rem;
   list-style-type: none;
@@ -32,12 +32,12 @@
   transition: 300ms;
 }
 
-.navbar li:hover {
+.ulBig li:hover {
   color: white;
-} 
+}
 
-.navbar li::after {
-  content: '';
+.ulBig li::after {
+  content: "";
   position: absolute;
   left: 0;
   bottom: -0.25rem;
@@ -48,12 +48,66 @@
   transition: scale 300ms;
 }
 
-.navbar li:hover::after {
+.ulBig li:hover::after {
   scale: 1 1;
 }
 
-.navbar a {
+.ulBig a {
   text-decoration: none;
   color: inherit;
 }
 
+.dropdown {
+  position: relative;
+  margin-right: 1rem;
+  display: flex;
+}
+
+.dropdownIcon {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.dropdownMenu {
+  padding-inline: 0.5rem;
+  width: 155px;
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  right: 0;
+  display: flex;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ulSmall {
+  padding: 0;
+  font-size: large;
+}
+
+.ulSmall li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+.ulSmall a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.ulSmall li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 649px) {
+  .ulBig {
+    display: none;
+  }
+}
+
+@media (min-width: 650px) {
+  .dropdown {
+    display: none;
+  }
+}
