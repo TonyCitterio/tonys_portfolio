@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className={classes.col}>
           <a
-            href="https://github.com/TonyCitterio"
+            href="https://www.linkedin.com/in/tony-citterio-8bb725222/"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.link}
