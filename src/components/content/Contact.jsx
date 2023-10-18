@@ -7,6 +7,7 @@ const Contact = () => {
     <>
       <section className={classes.container}>
         <div className={classes.content}>
+          <div className={classes.quarterCircle}></div>
           <div className={classes.intro}>
             <h3>Kontakta mig</h3>
             <div className={classes.social}>

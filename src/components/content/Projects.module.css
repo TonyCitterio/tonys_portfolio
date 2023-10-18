@@ -1,5 +1,6 @@
 .container {
-  padding-block: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,6 +106,31 @@
 
 .link:hover .icon {
   color: #333333;
+}
+
+.moreToCome {
+  position: relative;
+  /* padding: 1rem; */
+  margin-top: 3.5rem;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.halfCircle {
+  position: absolute;
+  left: -23px;
+  width: 200px;
+  height: 200px;
+  background-color: #006d77;
+  clip-path: circle(50% at 0 50%);
+  z-index: -1;
 }
 
 @media (max-width: 1140px) {

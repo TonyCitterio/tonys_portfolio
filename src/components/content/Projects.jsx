@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLink } from "react-icons/fa6";
 import classes from "./Projects.module.css";
 // import cleves from "../../pictures/cleveDubbelBlue.jpeg";
-import cleveIpad from "../../pictures/cleve.jpeg"
+import cleveIpad from "../../pictures/cleve.jpeg";
 
 const Projects = () => {
   return (
@@ -50,6 +50,10 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+          </div>
+          <div className={classes.moreToCome}>
+            <div className={classes.halfCircle}></div>
+            <h3>Mer Projekt på väg!</h3>
           </div>
         </div>
       </section>
