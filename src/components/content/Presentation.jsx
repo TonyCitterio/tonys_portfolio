@@ -31,13 +31,13 @@ const Presentation = () => {
               <p>Min verktyglsåda</p>
             </div>
             <div className={classes.icons}>
-               <FaHtml5 size={50} className={classes.htmlIcon} />
-            <FaCss3Alt size={50} className={classes.cssIcon} />
+               <FaHtml5 size={52} className={classes.htmlIcon} />
+            <FaCss3Alt size={52} className={classes.cssIcon} />
             <div className={classes.javascriptIconContainer}>
-            <RiJavascriptFill size={61} className={classes.javascriptIcon} />
+            <RiJavascriptFill size={63} className={classes.javascriptIcon} />
             </div>
-            <FaReact size={50} className={classes.reactIcon} />
-          <SiTailwindcss size={40} className={classes.tailwindIcon} />
+            <FaReact size={52} className={classes.reactIcon} />
+          <SiTailwindcss size={42} className={classes.tailwindIcon} />
             </div>
           </div>
         </div>
