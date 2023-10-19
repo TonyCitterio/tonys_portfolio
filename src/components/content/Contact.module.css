@@ -1,5 +1,5 @@
 .container {
-  padding-bottom: 5.5rem;
+  padding-bottom: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,16 +8,16 @@
 
 .content {
   position: relative;
+  padding-inline: 2rem;
   width: clamp(38ch, 85%, 110ch);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   border-radius: 1rem;
+  overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  display: flex;
-  padding-inline: 2rem;
-  flex-wrap: wrap;
-  flex-direction: column;
-  overflow: hidden;
 }
 
 .quarterCircle {
@@ -34,6 +34,11 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
+}
+
+.intro h3 {
+  font-family: "Gabarito", sans-serif;
+  font-size: 1.45rem;
 }
 
 .social {
@@ -65,11 +70,11 @@
 }
 
 .link {
-  text-decoration: none;
-  color: inherit;
   padding: 0;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 .info {
@@ -116,5 +121,11 @@
   }
   .social a:hover::after {
     scale: 0 1;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding-bottom: 5rem;
   }
 }

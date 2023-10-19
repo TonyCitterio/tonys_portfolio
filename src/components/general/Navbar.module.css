@@ -16,6 +16,8 @@
 .navbar h1 {
   margin-left: 1.5rem;
   color: white;
+  font-family: 'Gabarito', sans-serif;
+  font-size: 1.75rem;
 }
 
 .ulBig {
@@ -27,8 +29,11 @@
 .ulBig li {
   position: relative;
   padding-inline: 1rem;
+  font-weight: bold;
   list-style-type: none;
-  color: rgba(255, 255, 255, 0.81);
+  font-family: 'Gabarito', sans-serif;
+
+  color: rgba(255, 255, 255, 0.82);
   transition: 300ms;
 }
 

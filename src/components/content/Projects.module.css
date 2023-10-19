@@ -1,5 +1,5 @@
 .container {
-  padding-top: 10rem;
+  padding-top: 8rem;
   padding-bottom: 4rem;
   display: flex;
   justify-content: center;
@@ -13,6 +13,16 @@
 
 .intro {
   margin-bottom: 3rem;
+}
+
+.intro h2 {
+  font-family: "Gabarito", sans-serif;
+  font-size: 1.55rem;
+}
+
+.intro h3 {
+  font-family: "Gabarito", sans-serif;
+  /* font-size: 1.2rem; */
 }
 
 .card {
@@ -49,6 +59,7 @@
 
 .info h3 {
   margin-top: 0.2rem;
+  font-family: "Gabarito", sans-serif;
 }
 
 .info p {
@@ -111,7 +122,7 @@
 .moreToCome {
   position: relative;
   /* padding: 1rem; */
-  margin-top: 3.5rem;
+  margin-top: 4rem;
   width: 100%;
   height: 200px;
   display: flex;
@@ -123,6 +134,11 @@
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+.moreToCome h3 {
+  font-family: "Gabarito", sans-serif;
+  font-size: 1.4rem;
+}
+
 .halfCircle {
   position: absolute;
   left: -23px;
@@ -130,8 +146,22 @@
   height: 200px;
   background-color: #006d77;
   clip-path: circle(50% at 0 50%);
-  z-index: -1;
 }
+
+/* .content, .moreToCome{
+  animation: fade 3s linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
 
 @media (max-width: 1140px) {
   .card img {
@@ -164,5 +194,17 @@
   }
   .card img {
     width: 300px;
+  }
+  .moreToCome {
+    margin-top: 2rem;
+  }
+  .container {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .moreToCome h3 {
+    margin-left: 1.5rem;
   }
 }
