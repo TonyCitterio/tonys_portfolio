@@ -1,13 +1,14 @@
 import React from "react";
 import classes from "./AboutMe.module.css";
-import desk from "../../pictures/pexels-andrea-davis-3653849.jpg";
+import picture from "../../pictures/IMG_0484.jpeg"
+
 const AboutMe = () => {
   return (
     <>
       <section className={classes.container}>
         <div className={classes.content}>
           <div className={classes.picture}>
-            <img src={desk} alt="of a desk setup" />
+            <img src={picture} alt="of a desk setup" />
           </div>
           <div className={classes.textContainer}>
             <h2>
