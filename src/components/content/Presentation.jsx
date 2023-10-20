@@ -10,6 +10,7 @@ const Presentation = () => {
     <>
       <section className={classes.container}>
         <div className={classes.content}>
+          <div className={classes.quarterCircle}></div>
           <div className={classes.intro}>
             <div>
               <h1>Frontend-Utvecklare med ett öga för detaljer!</h1>

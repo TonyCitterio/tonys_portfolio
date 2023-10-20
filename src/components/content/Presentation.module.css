@@ -1,9 +1,20 @@
 .container {
   padding-block: 9rem;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #333333;
+}
+
+.quarterCircle {
+  width: 275px;
+  height: 275px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0a9da0;
+  clip-path: circle(50% at 0 0);
 }
 
 .content {

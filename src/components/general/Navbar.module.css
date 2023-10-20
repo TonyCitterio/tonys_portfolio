@@ -32,8 +32,8 @@
   font-weight: bold;
   list-style-type: none;
   font-family: 'Gabarito', sans-serif;
-
   color: rgba(255, 255, 255, 0.82);
+  cursor: pointer;
   transition: 300ms;
 }
 
@@ -121,7 +121,7 @@
   .ulBig li::after {
     display: none;
   }
-  .ulBig li {
-    color: white;
+  .ulBig li:hover {
+    color: rgba(255, 255, 255, 0.82);
   }
 }

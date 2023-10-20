@@ -1,5 +1,5 @@
 .container {
-  padding-top: 8rem;
+  padding-top: 9rem;
   padding-bottom: 4rem;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
 }
 
 .intro {
-  margin-bottom: 3rem;
+  margin-bottom: 3.25rem;
 }
 
 .intro h2 {
@@ -170,10 +170,13 @@
 }
 
 @media (max-width: 998px) {
+  .container {
+    padding-top: 7rem;
+  }
   .card {
     border-radius: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
   .card > *:nth-child(1) {
     justify-content: center;
@@ -189,6 +192,13 @@
 }
 
 @media (max-width: 650px) {
+  .container {
+    padding-top: 6rem;
+    padding-bottom: 2.25rem;
+  }
+  .intro {
+    margin-bottom: 2.25rem;
+  }
   .card > *:nth-child(1) {
     height: 220px;
   }
@@ -196,15 +206,12 @@
     width: 300px;
   }
   .moreToCome {
-    margin-top: 2rem;
-  }
-  .container {
-    padding-bottom: 2rem;
+    margin-top: 2.25rem;
   }
 }
 
 @media (max-width: 425px) {
   .moreToCome h3 {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
 }

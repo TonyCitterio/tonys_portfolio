@@ -12,7 +12,8 @@
 
 .container::after {
   content: '';
-  background-image: linear-gradient(45deg, #84a98c, #006d77, #edf6f9 );
+  /* background-image: linear-gradient(45deg, #84a98c, #006d77, #edf6f9 ); */
+  background-image: linear-gradient(45deg, #84a98c, #006d77, #9fbec8 );
   position: absolute;
   z-index: -1;
   inset: 0;
