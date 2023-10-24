@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./AboutMe.module.css";
-import picture from "../../pictures/IMG_0484.jpeg"
+import picture from "../../pictures/IMG_0484.jpeg";
 
 const AboutMe = () => {
   return (
@@ -16,20 +16,22 @@ const AboutMe = () => {
               användarupplevelse!
             </h2>
             <p>
-              Här har ni en junior frontend-utvecklare med passion för att skapa
-              webbupplevelser som är användarvänliga och ser bra ut. Med ett öga
-              för detaljer och en värktygslåda fylld av kunskap inom bland annat
-              HTML, CSS, JavaScript och React strävar jag efter att skapa
-              användarvänliga, snygga och responsiva webbplatser. Jag är en
-              problemlösare som älskar utmaningar och jag arbetar ständigt för
-              att hålla mig uppdaterad med min kunskap. Jag är även en bra
-              lagspelare som har lätt för att samarbeta med andra människor
-              vilket jag lärt mig från många års erfarenhet som butiksäljare,
-              där vi som grupp arbetade tillsammans för att uppnå butikens alla
-              mål. Här har jag även fått stor erfarenhet av att möta och
-              komunisera med människor från olika kulturer och olika åldrar
-              vilket har resulterat i att jag har lätt för att passa in i olika
-              gruppkonstulationer.
+              Här är en junior frontend-utvecklare med en passion för att skapa
+              användarvänliga och estetiskt tilltalande webbupplevelser. Jag har
+              ett öga för detaljer och en bred verktygslåda med kompetens inom
+              HTML, CSS, JavaScript och React. Mitt mål är att leverera
+              webbplatser som är användarvänliga, visuellt tilltalande och
+              responsiva. Jag är en problemlösare som älskar utmaningar och
+              strävar ständigt efter att hålla mig uppdaterad inom mitt område.
+            </p>
+            <p>
+              Min erfarenhet som butiksäljare har utrustat mig med starka
+              samarbetsfärdigheter. Jag är van vid att arbeta i grupp för att nå
+              gemensamma mål och har lärt mig att anpassa mig till olika
+              arbetsmiljöer och kulturer. Dessutom har jag utvecklat förmågan
+              att kommunicera effektivt med människor från olika bakgrunder och
+              åldersgrupper. Detta gör mig till en mångsidig och anpassningsbar
+              lagspelare som är redo att bidra till framgångsrika projekt.
             </p>
           </div>
         </div>
