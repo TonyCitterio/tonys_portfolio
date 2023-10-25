@@ -40,7 +40,7 @@ const Projects = () => {
                   <FaGithub size={25} className={classes.icon}></FaGithub>
                 </a>
                 <a
-                  href="https://portfolio-44611.web.app/"
+                  href="https://clevesbrewhouse.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={classes.link}
