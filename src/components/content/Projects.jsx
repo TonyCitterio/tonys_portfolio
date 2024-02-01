@@ -3,6 +3,7 @@ import { FaGithub, FaLink } from "react-icons/fa6";
 import classes from "./Projects.module.css";
 // import cleves from "../../pictures/cleveDubbelBlue.jpeg";
 import cleveIpad from "../../pictures/cleve.jpeg";
+import theWackyCoffeeShop from "../../pictures/coffee.jpeg";
 
 const Projects = () => {
   return (
@@ -41,6 +42,44 @@ const Projects = () => {
                 </a>
                 <a
                   href="https://clevesbrewhouse.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={classes.link}
+                >
+                  Ta mig till sidan{" "}
+                  <FaLink size={25} className={classes.icon}></FaLink>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className={classes.card}>
+            <div>
+              <img src={theWackyCoffeeShop} alt="Mockup of The Wacky Coffee Shops Website" />
+            </div>
+            <div>
+              <div className={classes.info}>
+                <h3>The Wacky Coffee Shop</h3>
+                <p>
+                  En fiktiv e-handel skapad för att visa mina färdigheter inom
+                  webbutveckling, speciellt i React och modern CSS.
+                </p>
+              </div>
+              <div className={classes.doneInContainer}>
+                <p className={classes.doneIn}>React</p>
+                <p className={classes.doneIn}>CSS</p>
+              </div>
+              <div className={classes.linkContainer}>
+                <a
+                  href="https://github.com/TonyCitterio/the_wacky_styles_store"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={classes.link}
+                >
+                  Ta mig till koden
+                  <FaGithub size={25} className={classes.icon}></FaGithub>
+                </a>
+                <a
+                  href="https://thewackycoffeeshop.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={classes.link}

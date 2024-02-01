@@ -46,12 +46,18 @@ const Navbar = () => {
     };
   }, [isDropdownOpen]);
 
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      scrollToTop();
+    }
+  }
+
   return (
     <>
       <nav className={classes.navbar}>
         <h1>Tony Citterio</h1>
         <ul className={classes.ulBig}>
-          <li onClick={scrollToTop}>Hem</li>
+          <li tabIndex={0} onClick={scrollToTop} onKeyDown={handleKeyDown}>Hem</li>
           <li><a href="#about" data-scroll-to="about" onClick={scrollToSection}>Om mig</a></li>
           <li><a href="#projects" data-scroll-to="projects" onClick={scrollToSection}>Mina Projekt</a></li>
           <li><a href="#contact" data-scroll-to="contact" onClick={scrollToSection}>Kontakt</a></li>
