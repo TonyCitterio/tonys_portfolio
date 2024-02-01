@@ -6,8 +6,6 @@
   justify-content: center;
   align-items: center;
   color: white;
-  /* background-color: #a4c3b2; */
-  /* background-color: #83c5be; */
 }
 
 .container::after {
@@ -62,21 +60,6 @@
   line-height: 1.5rem;
 }
 
-/* .content {
-  animation: fade 3s linear both;
-  animation-timeline: view();
-  animation-range: entry 20% cover 30%;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
- */
 @media (max-width: 1174px) {
   .picture img {
     width: 267px;

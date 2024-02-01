@@ -19,7 +19,6 @@
 
 .content {
   width: clamp(33ch, 85%, 110ch);
-  /* border: 1px solid limegreen; */
 }
 
 .intro {
@@ -31,20 +30,17 @@
   flex: 1 1 50%;
   display: flex;
   flex-direction: column;
-  /* min-width: 40ch; */
-  /* border: 1px solid limegreen; */
 }
 
 .intro > *:nth-child(2) {
   flex: 1 1 50%;
   display: flex;
   justify-content: center;
-  /* border: 1px solid red; */
 }
 
 .intro h1 {
   font-size: 2.1rem;
-  font-family: 'Gabarito', sans-serif;
+  font-family: "Gabarito", sans-serif;
 }
 
 .intro p {
@@ -63,14 +59,13 @@
 .tech {
   display: flex;
   font-weight: bold;
-  /* border: 1px solid pink; */
 }
 
 .tech p {
   margin-top: 0;
   position: relative;
   font-family: "Gabarito", sans-serif;
-font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .tech p::after {
@@ -88,7 +83,6 @@ font-size: 1.1rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /* border: 1px solid limegreen; */
 }
 
 .htmlIcon {

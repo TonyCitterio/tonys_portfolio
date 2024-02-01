@@ -1,5 +1,10 @@
 import React from "react";
-import { FaMailchimp, FaMapLocation, FaLinkedinIn, FaGithub } from "react-icons/fa6";
+import {
+  FaMailchimp,
+  FaMapLocation,
+  FaLinkedinIn,
+  FaGithub,
+} from "react-icons/fa6";
 import classes from "./Contact.module.css";
 
 const Contact = () => {
