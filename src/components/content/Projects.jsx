@@ -4,6 +4,7 @@ import classes from "./Projects.module.css";
 // import cleves from "../../pictures/cleveDubbelBlue.jpeg";
 import cleveIpad from "../../pictures/cleve.jpeg";
 import theWackyCoffeeShop from "../../pictures/coffee.jpeg";
+import currency from "../../pictures/currency.jpeg"
 
 const Projects = () => {
   return (
@@ -19,6 +20,7 @@ const Projects = () => {
               <img src={cleveIpad} alt="Mockup of Cleves Brewhouses Website" />
             </div>
             <div>
+              <div className={classes.halfCircleInfo}></div>
               <div className={classes.info}>
                 <h3>Cleves Brewhouse</h3>
                 <p>
@@ -27,6 +29,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className={classes.doneInContainer}>
+                <p className={classes.doneInHeading}>Verktyg</p>
                 <p className={classes.doneIn}>React</p>
                 <p className={classes.doneIn}>CSS</p>
               </div>
@@ -38,7 +41,7 @@ const Projects = () => {
                   className={classes.link}
                 >
                   Ta mig till koden
-                  <FaGithub size={25} className={classes.icon}></FaGithub>
+                  <FaGithub size={26} className={classes.icon}></FaGithub>
                 </a>
                 <a
                   href="https://clevesbrewhouse.web.app/"
@@ -46,17 +49,21 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className={classes.link}
                 >
-                  Ta mig till sidan{" "}
-                  <FaLink size={25} className={classes.icon}></FaLink>
+                  Ta mig till sidan
+                  <FaLink size={26} className={classes.icon}></FaLink>
                 </a>
               </div>
             </div>
           </div>
           <div className={classes.card}>
             <div>
-              <img src={theWackyCoffeeShop} alt="Mockup of The Wacky Coffee Shops Website" />
+              <img
+                src={theWackyCoffeeShop}
+                alt="Mockup of The Wacky Coffee Shops Website"
+              />
             </div>
             <div>
+              <div className={classes.halfCircleInfo}></div>
               <div className={classes.info}>
                 <h3>The Wacky Coffee Shop</h3>
                 <p>
@@ -65,6 +72,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className={classes.doneInContainer}>
+                <p className={classes.doneInHeading}>Verktyg</p>
                 <p className={classes.doneIn}>React</p>
                 <p className={classes.doneIn}>CSS</p>
               </div>
@@ -76,7 +84,7 @@ const Projects = () => {
                   className={classes.link}
                 >
                   Ta mig till koden
-                  <FaGithub size={25} className={classes.icon}></FaGithub>
+                  <FaGithub size={26} className={classes.icon}></FaGithub>
                 </a>
                 <a
                   href="https://thewackycoffeeshop.web.app/"
@@ -84,8 +92,50 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className={classes.link}
                 >
-                  Ta mig till sidan{" "}
-                  <FaLink size={25} className={classes.icon}></FaLink>
+                  Ta mig till sidan
+                  <FaLink size={26} className={classes.icon}></FaLink>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className={classes.card}>
+            <div>
+              <img
+                src={currency}
+                alt="Mockup of The Wacky Coffee Shops Website"
+              />
+            </div>
+            <div>
+              <div className={classes.halfCircleInfo}></div>
+              <div className={classes.info}>
+                <h3>Valuta kollen</h3>
+                <p>
+                  En webbsida med en valutaomvandlare skapad för att demonstrera mina färdighet i JavaScript och CSS.
+                </p>
+              </div>
+              <div className={classes.doneInContainer}>
+                <p className={classes.doneInHeading}>Verktyg</p>
+                <p className={classes.doneIn}>JavaScript</p>
+                <p className={classes.doneIn}>CSS</p>
+              </div>
+              <div className={classes.linkContainer}>
+                <a
+                  href="https://github.com/TonyCitterio/currency_site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={classes.link}
+                >
+                  Ta mig till koden
+                  <FaGithub size={26} className={classes.icon}></FaGithub>
+                </a>
+                <a
+                  href="https://currency-site.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={classes.link}
+                >
+                  Ta mig till sidan
+                  <FaLink size={26} className={classes.icon}></FaLink>
                 </a>
               </div>
             </div>
